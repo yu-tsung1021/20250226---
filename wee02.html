@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+ <!--設定網頁語言--> 
+<html lang="en">
+<!--設定網頁內容-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java程式設計</title>
+    <style>
+        /* 標題樣式 */
+        h1 {
+            color: blue;
+            font-size: 2em;
+            text-align: center;
+        }
+        h2 {
+            color: green;
+            font-size: 1.5em;
+        }
+
+        /* 段落樣式 */
+        p {
+            color: red;
+            font-size: 1em;
+            line-height: 1.5;
+        }
+
+        /* 清單樣式 */
+        ol {
+            list-style-type: decimal;
+            margin-left: 20px;
+        }
+        ul {
+            list-style-type: circle;
+            margin-left: 20px;
+        }
+
+        /* 連結樣式 */
+        a {
+            color: purple;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* 圖片樣式 */
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* 表格樣式 */
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <!--標題運用-->
+    <h1>前端網頁應用程式</h1>
+    <p style="color:red">本門課程讓學生學會基礎的網頁設計技術</p>
+    <h2>JavaScript 程式設計含三個主題</h2>
+    <!--清單運用-->
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+    <ul style="list-style-type: circle;">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+    <!--連結運用-->
+    <a href="https://www.stust.edu.tw/" target="_blank">南台科技大學</a>
+    <img src="img/Designer.jpeg" alt="學生使用電腦" width="600px" height="500px"/>
+    <!--表格運用-->
+    <h2>學生成績表</h2>
+    <table style="border-collapse: collapse; width: 50%;">
+        <tr style="height:50px">
+            <th style="border: 1px solid black; padding: 10px; text-align: left;">姓名</th>
+            <th style="border: 1px solid black; padding: 10px; text-align: left;">數學</th>
+            <th style="border: 1px solid black; padding: 10px; text-align: left;">英文</th>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 10px; text-align: left;">小明</td>
+            <td style="border: 1px solid black; padding: 10px; text-align: left;">90</td>
+            <td style="border: 1px solid black; padding: 10px; text-align: left;">85</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 10px; text-align: left;">小華</td>
+            <td style="border: 1px solid black; padding: 10px; text-align: left;">80</td>
+            <td style="border: 1px solid black; padding: 10px; text-align: left;">88</td>
+        </tr>
+    </table>
+</body>
+</html>
